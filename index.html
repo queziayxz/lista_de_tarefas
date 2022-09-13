@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Lista de terefas</title>
+</head>
+<body>
+    
+    <h1>Daily to-do list</h1>
+    <!--DIV CONTAINER-->
+    <div class="list-container">
+        <!--DIV CONTAINER DA LISTA DOS MAIS IMPORTANTES-->
+        <div class="more-important">
+            <!--DIV ONDE FICA PARA ADICIONAR MAIS-->
+            <div class="btn-add add-important">
+                <h2>more important</h2>
+                <input type="button" value="+">
+            </div>
+            <!--DIV ONDE IRÁ ARMAZENAR TADA A LISTA DE TAREFAS DA MAIS IMPORTANTE-->
+            <div class="important"></div>
+        </div>
+
+        <!--DIV CONTAINER DA LISTA DOS POUCOS IMPORTANTES-->
+        <div class="little-important">
+            <!--DIV ONDE FICA PARA ADICIONAR MAIS-->
+            <div class="btn-add add-little">
+                <h2>little important</h2>
+                <input type="button" value="+">
+            </div>
+            <!--DIV ONDE IRÁ ARMAZENAR TADA A LISTA DE TAREFAS QUE NÃO SÃO TÃO IMPORTANTES-->
+            <div class="little"></div>
+
+        </div>
+
+        <!--DIV CONTAINER DA LISTA DOS SE DER TEMPO-->
+        <div class="if-time">
+            <!--DIV ONDE FICA PARA ADICIONAR MAIS-->
+            <div class="btn-add add-if">
+                <h2>if there is time</h2>
+                <input type="button" value="+">
+            </div>
+            <!--DIV ONDE IRÁ ARMAZENAR TADA A LISTA DE TAREFAS SE DER TEMPO-->
+            <div class="if-t"></div>
+        </div>
+
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
